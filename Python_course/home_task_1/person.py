@@ -1,8 +1,6 @@
-import string
 
-
-class Person(object):
-    def __init__(self, salary: float, age: int, name: string, gender: bool, friends: list):
+class Person():
+    def __init__(self, salary: float, age: int, name: str, gender: bool, friends: list):
         self.salary = salary
         self.age = age
         self.name = name

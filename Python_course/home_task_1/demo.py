@@ -1,4 +1,4 @@
-from Python_course.HomeTask1.person import Person
+from Python_course.home_task_1.person import Person
 
 john_salary = 100.55
 john_age = 30
