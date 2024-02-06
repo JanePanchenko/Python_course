@@ -1,0 +1,70 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "expenses": 500,
+      "incomes": 530,
+      "employees": [
+        {
+          "id": 1,
+          "salary": 100.79,
+          "level": "senior"
+        },
+        {
+          "id": 2,
+          "salary": 90,
+          "level": "midl"
+        },
+        {
+          "id": 3,
+          "salary": 75,
+          "level": "junior"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "expenses": 725,
+      "incomes": 705,
+      "employees": [
+        {
+          "id": 5,
+          "salary": 115,
+          "level": "senior"
+        },
+        {
+          "id": 6,
+          "salary": 100,
+          "level": "midl"
+        },
+        {
+          "id": 7,
+          "salary": 80,
+          "level": "junior"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "expenses": 900,
+      "incomes": 970,
+      "employees": [
+        {
+          "id": 8,
+          "salary": 130,
+          "level": "senior"
+        },
+        {
+          "id": 9,
+          "salary": 115,
+          "level": "midl"
+        },
+        {
+          "id": 10,
+          "salary": 85,
+          "level": "junior"
+        }
+      ]
+    }
+  ]
+}
