@@ -1,13 +1,13 @@
+from typing import List
+
 from Python_course.home_task_9.locomotive import Locomotive
 from Python_course.home_task_9.railway_carriage import RailwayCarriage
 
 
 class Train:
-    __railway_carriage_list = []
 
     def __init__(self):
-        locomotive = Locomotive()
-        self.__railway_carriage_list.append(locomotive)
+        self.__railway_carriage_list: List[RailwayCarriage] = [Locomotive()]
 
     def add_carriage(self):
         number_of_carriages = len(self.__railway_carriage_list)

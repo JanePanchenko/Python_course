@@ -24,3 +24,11 @@ except FullCarriageError as ex:
     print(ex.message)
 
 print(f'Carriage number {carriage.number} consists of {len(carriage)} passengers')
+
+print(f"train has {len(train)} carriages")
+for k in range(11):
+    print(f'len of passengers in Carriage {k} = {len(train.get_carriage(k))}')
+
+train2 = Train()
+print(f"train has {len(train)} carriages")
+print(f"train2 has {len(train2)} carriages")

@@ -3,9 +3,9 @@ from Python_course.home_task_9.passenger import Passenger
 
 
 class RailwayCarriage:
-    __passenger_list = []
 
     def __init__(self, number: int):
+        self.__passenger_list = []
         self.number = number
 
     def add_passenger(self, passenger: Passenger) -> None:
